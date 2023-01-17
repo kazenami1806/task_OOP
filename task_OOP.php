@@ -69,8 +69,8 @@ class persegi_panjang{
         
         $Sh_panjang = $this->panjang/$this->scale;
         $Sh_lebar = $this->lebar/$this->scale;
-        $kecilin[] = [$Sh_panjang, $Sh_panjang];
-        return $kecilin;
+        $kecil[] = [$Sh_panjang, $Sh_panjang];
+        return $kecil;
     }
 }
 
